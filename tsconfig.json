@@ -8,7 +8,7 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-
+    
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -36,7 +36,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "next.config.mjs"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules","*.json"]
 }
